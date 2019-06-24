@@ -28,5 +28,7 @@ for i in range(len(nba_teams)):
         team_players[nba_teams['Tm'][i]].append(i)
     else:
         team_players[nba_teams['Tm'][i]] = [i]
+# team_players maps the teams name to the indices of every player that played for them that year
+# (Indices of the dataframe)
 
 print(team_players)

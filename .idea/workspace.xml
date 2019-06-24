@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="429">
+              <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -150,7 +150,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.028697573" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7214286" visible="true" weight="0.38946164" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7214286" weight="0.38946164" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49761903" weight="0.39955848" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -158,7 +158,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.27857143" side_tool="true" weight="0.40507725" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32875144" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3298969" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3289183" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -197,8 +197,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="429">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
