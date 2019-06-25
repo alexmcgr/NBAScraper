@@ -15,6 +15,7 @@ for i in range(2019, 2020):
     stats = pd.DataFrame(player_data, columns=headers)
     stats_list.append(stats)
     # Prints each year of stats to a csv file
+    # This is so I can build the same DataFrame in other files if I need to
     f = open("stats" + str(i) + ".csv", "w+")
     f.write(stats.to_csv())
 
@@ -31,4 +32,19 @@ for i in range(len(nba_teams)):
 # team_players maps the teams name to the indices of every player that played for them that year
 # (Indices of the dataframe)
 
+# A look at the cumulative points per game for each team (IE, if they traded a player his points still factor into
+# the calculation) This is flawed but also allows us to see which teams were particularly hit by injuries or were active
+# traders. A smaller PPG total means that the team tinkered with their lineup less, and a high number meant that they
+# did the opposite (Whether it be for injuries, strategy, or trades)
 print(team_players)
+total_points = []
+for key, value in team_players.items():
+    points = 0
+    t = nba_teams['PTS']
+    for i in value:
+        if t.loc[i] is not None:
+            print(float(t.loc[i]))
+            points += float(t.loc[i])
+    print()
+    total_points.append((key, round(points, 3)))
+print(total_points)
