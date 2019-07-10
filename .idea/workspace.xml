@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="-727">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -27,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stats2019.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9072">
+            <state relative-caret-position="8703">
               <caret line="432" column="24" lean-forward="true" selection-start-line="432" selection-start-column="24" selection-end-line="432" selection-end-column="24" />
             </state>
           </provider>
@@ -86,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,7 +150,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.028697573" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7214286" visible="true" weight="0.45360824" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7214286" visible="true" weight="0.35509735" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49761903" weight="0.39955848" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -190,15 +190,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stats2019.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9072">
+        <state relative-caret-position="8703">
           <caret line="432" column="24" lean-forward="true" selection-start-line="432" selection-start-column="24" selection-end-line="432" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="-727">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>

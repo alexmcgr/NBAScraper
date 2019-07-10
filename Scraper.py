@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sea
 
 # Want to be able to access the team DataFrames at any time
 stats_list = []
@@ -44,19 +46,28 @@ def get_stats(start_year, end_year):
 # strategy, or trades). This follows for any stat that you might care about.
 def total_stats(col, teams_year):
     print(team_players)
+    s = []
     total_points = []
     for key, value in team_players.items():
         points = 0
         t = teams_year[col]
-        for i in value:
-            if t.loc[i] is not None:
-                print(float(t.loc[i]))
-                points += float(t.loc[i])
-        print()
-        total_points.append((key, round(points, 3)))
-    print(total_points)
+        if key != 'TOT' and key is not None:
+            print(key)
+            for i in value:
+                if t.loc[i] is not None:
+                    points += float(t.loc[i])
+            s.append((key, round(points, 3)))
+            total_points.append(round(points, 3))
+    print(s)
+    return total_points
 
 
 team_players = get_stats(2018, 2019)
-total_stats('BLK', stats_list[0])
+blk = total_stats('BLK', stats_list[0])
+pts = total_stats('PTS', stats_list[0])
+plt.scatter(pts, blk)
+plt.show()
+
+# Try to do a line plot with a single players pts per game or anything as the years go on
+
 
