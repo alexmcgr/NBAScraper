@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29ba6839-74a5-4399-95e9-6dd886418e16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2000.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2000.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2001.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2001.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2002.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2002.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2003.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2003.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2004.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2004.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2005.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2005.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2006.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2006.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2007.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2007.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2008.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2008.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2009.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2009.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2010.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2010.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2011.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2011.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2012.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2012.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2013.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2013.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2014.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2014.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2015.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2015.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2016.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2016.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2017.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2017.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2018.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2018.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats2019.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2019.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scraper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,10 +15,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+            <state relative-caret-position="408">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scratch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,6 +71,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mvp.csv" />
+        <option value="$PROJECT_DIR$/scratch.py" />
         <option value="$PROJECT_DIR$/Scraper.py" />
       </list>
     </option>
@@ -131,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Scraper">
     <configuration name="Scraper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NBAScraper" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,9 +146,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NBAScraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scratch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Scraper" />
+        <item itemvalue="Python.scratch" />
       </list>
     </recent_temporary>
   </component>
@@ -174,13 +189,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="981" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14044605" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14044605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.028697573" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7214286" weight="0.35509735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7214286" visible="true" weight="0.35509735" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49761903" weight="0.39955848" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -188,7 +204,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.27857143" side_tool="true" weight="0.40507725" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298969" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32875144" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24971363" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.28293243" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3289183" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -215,6 +231,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSV_files/stats.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/CSV_files/stats2019.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8703">
@@ -222,16 +241,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSV_files/stats.csv">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvp.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+        <state relative-caret-position="408">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>

@@ -2,7 +2,8 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sea
+import seaborn as sns
+import numpy as np
 
 # Want to be able to access the team DataFrames at any time
 stats_list = []
@@ -83,6 +84,7 @@ win_shares_per48 = mvp_voting['WS/48']
 players = mvp_voting['Player']
 giannis = mvp_voting.iloc[0]
 harden = mvp_voting.iloc[1]
+sns.set()
 plt.scatter(points, win_shares_per48)
 print(giannis)
 for i in range(len(mvp_voting)):
@@ -92,3 +94,11 @@ plt.xlabel("Pts per game")
 plt.ylabel("Win Shares Per 48")
 plt.show()
 
+# Trying a bar plot of several statistics of every player in the MVP voting
+print(mvp_voting.iloc[0:2])
+mvp_voting_2 = pd.DataFrame(mvp_voting[0::], columns=['FG%', 'WS/48', '3P%', 'FG%'])
+mvp_voting_2.plot.bar(stacked=True)
+plt.xlabel('Players')
+plt.ylabel("Percentage")
+plt.show()
+# TODO add the player labels rather than numbers as the x label
