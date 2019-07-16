@@ -2,30 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29ba6839-74a5-4399-95e9-6dd886418e16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mvp.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2001.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2002.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2003.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2004.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2005.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2006.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2007.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2008.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2009.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2010.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2011.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2012.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2013.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2014.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2015.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2016.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2017.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2018.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stats2019.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2000.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2000.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2001.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2001.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2002.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2002.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2003.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2003.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2004.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2004.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2005.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2005.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2006.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2006.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2007.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2007.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2008.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2008.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2009.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2009.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2010.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2010.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2011.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2011.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2012.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2012.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2013.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2013.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2014.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2014.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2015.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2015.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2016.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2016.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2017.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2017.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2018.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2018.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats2019.csv" beforeDir="false" afterPath="$PROJECT_DIR$/CSV_files/stats2019.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="83" column="28" lean-forward="true" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+            <state relative-caret-position="456">
+              <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -53,7 +50,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stats2019.csv">
+        <entry file="file://$PROJECT_DIR$/CSV_files/stats2019.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="8703">
               <caret line="432" column="24" selection-start-line="432" selection-start-column="24" selection-end-line="432" selection-end-column="24" />
@@ -62,7 +59,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stats.csv">
+        <entry file="file://$PROJECT_DIR$/CSV_files/stats.csv">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -116,6 +113,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CSV_files" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -172,14 +174,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="981" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14044605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14044605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.028697573" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7214286" visible="true" weight="0.35509735" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7214286" weight="0.35509735" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49761903" weight="0.39955848" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -187,7 +188,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.27857143" side_tool="true" weight="0.40507725" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3298969" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32875144" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24971363" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24971363" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3289183" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -195,33 +196,33 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stats2018.csv">
+    <entry file="file://$PROJECT_DIR$/CSV_files/stats2018.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stats2017.csv">
+    <entry file="file://$PROJECT_DIR$/CSV_files/stats2017.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-115" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stats2000.csv">
+    <entry file="file://$PROJECT_DIR$/CSV_files/stats2000.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stats2019.csv">
+    <entry file="file://$PROJECT_DIR$/CSV_files/stats2019.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8703">
           <caret line="432" column="24" selection-start-line="432" selection-start-column="24" selection-end-line="432" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stats.csv">
+    <entry file="file://$PROJECT_DIR$/CSV_files/stats.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mvp.csv">
@@ -229,8 +230,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="83" column="28" lean-forward="true" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+        <state relative-caret-position="456">
+          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
