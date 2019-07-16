@@ -62,12 +62,33 @@ def total_stats(col, teams_year):
     return total_points
 
 
-team_players = get_stats(2018, 2019)
-blk = total_stats('BLK', stats_list[0])
-pts = total_stats('PTS', stats_list[0])
-plt.scatter(pts, blk)
-plt.show()
+# team_players = get_stats(2018, 2019)
+# blk = total_stats('BLK', stats_list[0])
+# pts = total_stats('PTS', stats_list[0])
+# plt.scatter(pts, blk)
+# plt.show()
 
 # Try to do a line plot with a single players pts per game or anything as the years go on
 
+
+# Use a 2019 MVP voting chart to compare the statistics of top players from 2019
+
+# Build DataFrame from csv downloaded from Basketballreference.com
+mvp_voting = pd.DataFrame.from_csv('mvp.csv')
+print(mvp_voting)
+
+# Plot the PPG of each player against their Win Shares per 48 Minutes and annotate the plot
+points = mvp_voting['PTS']
+win_shares_per48 = mvp_voting['WS/48']
+players = mvp_voting['Player']
+giannis = mvp_voting.iloc[0]
+harden = mvp_voting.iloc[1]
+plt.scatter(points, win_shares_per48)
+print(giannis)
+for i in range(len(mvp_voting)):
+    plt.annotate(players[i], (points[i], win_shares_per48[i]))
+
+plt.xlabel("Pts per game")
+plt.ylabel("Win Shares Per 48")
+plt.show()
 
