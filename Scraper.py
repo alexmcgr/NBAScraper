@@ -62,18 +62,15 @@ def total_stats(col, teams_year):
     print(s)
     return total_points
 
-
+# These lines are commented to run faster, however they relate to executing some of the above commands
 # team_players = get_stats(2018, 2019)
 # blk = total_stats('BLK', stats_list[0])
 # pts = total_stats('PTS', stats_list[0])
 # plt.scatter(pts, blk)
 # plt.show()
 
-# Try to do a line plot with a single players pts per game or anything as the years go on
-
 
 # Use a 2019 MVP voting chart to compare the statistics of top players from 2019
-
 # Build DataFrame from csv downloaded from Basketballreference.com
 mvp_voting = pd.DataFrame.from_csv('mvp.csv')
 # Also want to get rid of the extra id name for each player in the DataFrame
@@ -84,20 +81,35 @@ for i in range(len(mvp_voting)):
 points = mvp_voting['PTS']
 win_shares_per48 = mvp_voting['WS/48']
 players = mvp_voting['Player']
-giannis = mvp_voting.iloc[0]
-harden = mvp_voting.iloc[1]
 sns.set()
-plt.scatter(points, win_shares_per48)
-print(giannis)
+
 for i in range(len(mvp_voting)):
+    plt.scatter(points[i], win_shares_per48[i], alpha=.75)
+    plt.xlim(15, 40)
+    plt.ylim(.1, .3)
     plt.annotate(players[i], (points[i], win_shares_per48[i]))
+    plt.xlabel("Pts per game")
+    plt.ylabel("Win Shares Per 48")
+    # This was used to create a gif of the graph for better readability on a potential blog post of this work
+    filename = str(i) + "step.png"
+    plt.savefig(filename, dpi=96)
+    # gif created using imagemagick bash command 'convert -delay 40 '%dstep.png'[0-11] win_shares_vs_pts.gif'
 
-plt.xlabel("Pts per game")
-plt.ylabel("Win Shares Per 48")
-plt.show()
+# stats = mvp_voting.loc[[, ['Player', 'PTS', 'TRB', 'BLK', 'STL', 'AST', 'WS/48']]
+# print(stats)
 
-# Trying a bar plot of several statistics of every player in the MVP voting
-print(mvp_voting.iloc[0:2])
+# stats = mvp_voting[['Player', 'PTS', 'TRB', 'BLK', 'STL', 'AST', 'WS/48']].copy()
+# print(stats)
+# df = pd.DataFrame({
+#     players,
+#     points,
+#     win_shares_per48
+# })
+#
+# print(df)
+#
+
+# Trying a bar plot of several statistics of every player (Or a subset) in the MVP voting
 mvp_voting_2 = pd.DataFrame(mvp_voting[0:2], columns=['FG%', 'WS/48', '3P%', 'FG%'])
 mvp_voting_2.plot.bar(stacked=True)
 plt.xlabel('Players')
