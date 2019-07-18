@@ -76,7 +76,9 @@ def total_stats(col, teams_year):
 
 # Build DataFrame from csv downloaded from Basketballreference.com
 mvp_voting = pd.DataFrame.from_csv('mvp.csv')
-print(mvp_voting)
+# Also want to get rid of the extra id name for each player in the DataFrame
+for i in range(len(mvp_voting)):
+    mvp_voting['Player'][i] = mvp_voting['Player'][i].split('\\', 1)[0]
 
 # Plot the PPG of each player against their Win Shares per 48 Minutes and annotate the plot
 points = mvp_voting['PTS']
@@ -96,7 +98,7 @@ plt.show()
 
 # Trying a bar plot of several statistics of every player in the MVP voting
 print(mvp_voting.iloc[0:2])
-mvp_voting_2 = pd.DataFrame(mvp_voting[0::], columns=['FG%', 'WS/48', '3P%', 'FG%'])
+mvp_voting_2 = pd.DataFrame(mvp_voting[0:2], columns=['FG%', 'WS/48', '3P%', 'FG%'])
 mvp_voting_2.plot.bar(stacked=True)
 plt.xlabel('Players')
 plt.ylabel("Percentage")
