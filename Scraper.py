@@ -4,6 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+from adjustText import adjust_text
 
 # Want to be able to access the team DataFrames at any time
 stats_list = []
@@ -70,30 +71,39 @@ def total_stats(col, teams_year):
 # plt.show()
 
 
-# Use a 2019 MVP voting chart to compare the statistics of top players from 2019
-# Build DataFrame from csv downloaded from Basketballreference.com
-mvp_voting = pd.DataFrame.from_csv('mvp.csv')
-# Also want to get rid of the extra id name for each player in the DataFrame
-for i in range(len(mvp_voting)):
-    mvp_voting['Player'][i] = mvp_voting['Player'][i].split('\\', 1)[0]
+def compare_stats_mvps(stat_1, stat_2):
+    # Use a 2019 MVP voting chart to compare the statistics of top players from 2019
+    # Build DataFrame from csv downloaded from Basketballreference.com
+    mvp_voting = pd.DataFrame.from_csv('mvp.csv')
+    mvp_voting = mvp_voting.head(5)
+    # Also want to get rid of the extra id name for each player in the DataFrame
+    for i in range(len(mvp_voting)):
+        mvp_voting['Player'][i] = mvp_voting['Player'][i].split('\\', 1)[0]
 
-# Plot the PPG of each player against their Win Shares per 48 Minutes and annotate the plot
-points = mvp_voting['PTS']
-win_shares_per48 = mvp_voting['WS/48']
-players = mvp_voting['Player']
-sns.set()
+    # Plot the PPG of each player against their Win Shares per 48 Minutes and annotate the plot
+    x = mvp_voting[stat_1]
+    y = mvp_voting[stat_2]
+    players = mvp_voting['Player']
+    sns.set()
+    texts = []
+    for i in range(len(mvp_voting)):
+        plt.scatter(x[i], y[i], alpha=.75,s=50)
+        plt.xlim(x.min() - x.min() * .1, x.max() + x.min() * .1)
+        plt.ylim(y.min() - y.min() * .1, y.max() + y.min() * .1)
+        # plt.annotate(players[i], (x[i], y[i]))
+        texts.append(plt.text(x[i], y[i], players[i] + ": " + str(i + 1)))
+        plt.xlabel(stat_1)
+        plt.ylabel(stat_2)
+        # This was used to create a gif of the graph for better readability on a potential blog post of this work
+        filename = str(i) + "step.png"
+        # plt.savefig(filename, dpi=96)
+        # gif created using imagemagick bash command 'convert -delay 40 '%dstep.png'[0-11] win_shares_vs_pts.gif'
+    adjust_text(texts)
+    plt.show()
 
-for i in range(len(mvp_voting)):
-    plt.scatter(points[i], win_shares_per48[i], alpha=.75)
-    plt.xlim(15, 40)
-    plt.ylim(.1, .3)
-    plt.annotate(players[i], (points[i], win_shares_per48[i]))
-    plt.xlabel("Pts per game")
-    plt.ylabel("Win Shares Per 48")
-    # This was used to create a gif of the graph for better readability on a potential blog post of this work
-    filename = str(i) + "step.png"
-    plt.savefig(filename, dpi=96)
-    # gif created using imagemagick bash command 'convert -delay 40 '%dstep.png'[0-11] win_shares_vs_pts.gif'
+
+compare_stats_mvps('PTS', 'FG%')
+compare_stats_mvps('3P%', 'PTS')
 
 # stats = mvp_voting.loc[[, ['Player', 'PTS', 'TRB', 'BLK', 'STL', 'AST', 'WS/48']]
 # print(stats)
